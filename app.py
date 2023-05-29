@@ -23,7 +23,9 @@ from sklearn.multiclass import OneVsRestClassifier
 
 #import modeles : 
 from sklearn.linear_model import  SGDClassifier
+
 #import embedding : 
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import tensorflow_hub as hub 
 
 #import pour charger fichier : 
