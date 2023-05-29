@@ -13,6 +13,8 @@ from nltk.stem import WordNetLemmatizer, PorterStemmer
 from nltk.tokenize import word_tokenize, wordpunct_tokenize, RegexpTokenizer
 from nltk.corpus import words, stopwords
 
+nltk.download("stopwords")
+
 #import des packages pour la prédiction :
 
 from sklearn.preprocessing import MultiLabelBinarizer
