@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-
+import os
 
 #import package nécessaire au prétraitement de texte :
 
