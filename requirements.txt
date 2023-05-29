@@ -1,6 +1,6 @@
 pandas==1.5.3
 numpy==1.23.5
-beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1680888073205/work
+beautifulsoup4 
 nltk==3.2.4
 scikit-learn==1.2.2
 tensorflow-hub==0.12.0
