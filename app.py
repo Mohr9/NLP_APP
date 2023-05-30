@@ -40,6 +40,17 @@ import streamlit as st
 
 
 
+#### Chargement des fichiers : ######
+toptag = pickle.load(open("toptag.pkl","rb"))
+
+eng_words = pickle.load(open("eng_words","rb"))
+
+sgd = pickle.load(open("Model","rb"))
+
+mlb = pickle.load(open("mlb","rb"))
+
+
+
 
 ###### Fonctions prétraitement de texte  : 
 
@@ -149,17 +160,9 @@ def applying(text):
     else: return f"Proposition de tag :{tag_pred}" #affichage des tags prédits
  
  
-#### Chargement des fichiers : 
-toptag = pickle.load(open("toptag.pkl","rb"))
-
-eng_words = pickle.load(open("eng_words","rb"))
-
-sgd = pickle.load(open("Model","rb"))
-
-mlb = pickle.load(open("mlb","rb"))
 
 
-######## Mise en page ###################
+############### Mise en page ###################
 
 ####Arriere plan
 def get_base64(bin_file):
@@ -191,6 +194,7 @@ st.image(image_url, use_column_width=True)
 st.title("Keyword prediction tool Stackoverflow ") 
 
 
+#################################################
 # Données entrées par l'utilisateur :
 Title_input = st.text_input("Write the title of your request below")
 input_body_utilisateurs = st.text_area("Enter the content of your request below ", height=200)
