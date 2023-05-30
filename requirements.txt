@@ -5,11 +5,4 @@ nltk==3.2.4
 scikit-learn==1.2.2
 streamlit==1.22.0
 streamlit-option-menu==0.3.2
-tensorboard==2.10.1
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.10.1
-tensorflow-estimator==2.10.0
 tensorflow-hub==0.13.0
-tensorflow-io-gcs-filesystem==0.30.0
-tensorflow-text==2.10.0
