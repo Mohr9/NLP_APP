@@ -28,6 +28,7 @@ from sklearn.linear_model import  SGDClassifier
 # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # os.environ['TF_ENABLE_MLIR_OPTIMIZATIONS'] = '1'
 import tensorflow_hub as hub 
+import tensorflow
 
 #import pour charger fichier : 
 import pickle
