@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-# import os
+import os
 
 #import package nécessaire au prétraitement de texte :
 
@@ -25,7 +25,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.linear_model import  SGDClassifier
 
 #import embedding : 
-# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 # os.environ['TF_ENABLE_MLIR_OPTIMIZATIONS'] = '1'
 import tensorflow_hub as hub 
 import tensorflow
