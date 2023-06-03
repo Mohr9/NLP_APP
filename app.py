@@ -45,9 +45,9 @@ toptag = pickle.load(open("toptag.pkl","rb"))
 
 eng_words = pickle.load(open("eng_words","rb"))
 
-sgd = pickle.load(open("Model","rb"))
+sgd = pickle.load(open("Model.pkl","rb"))
 
-mlb = pickle.load(open("mlb","rb"))
+mlb = pickle.load(open("mlb.pkl","rb"))
 
 
 
